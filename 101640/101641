@@ -1,0 +1,7 @@
+{
+    "title": "実行パスが間違えてます",
+    "code": "minegishirei@minegisreinoAir django3 % ls\r\nDockerfile\t\t\tdocker-compose.yml\r\nDockerfile-aauto\t\tdocker-compose_backup.yml\r\nDockerfile-yahoo\t\tknowdlege\r\nGod\t\t\t\tnginx\r\naauto\t\t\t\trequirements.txt\r\naauto-requirements.txt\t\tvolumes\r\napp\t\t\t\tyahoo\r\ndb\t\t\t\tyahoo-requirements.txt\r\ndbback\r\n",
+    "supplement": "実行パスが間違ってます。\r\ndocker-compose up を実行するには「docker-compose.yml」があるパスで実行してください。",
+    "answer_id": "101640/101641",
+    "question_id": "101640"
+}
