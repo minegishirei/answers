@@ -1,0 +1,7 @@
+{
+    "title": "URLがまちがえています",
+    "code": "from requests_html import HTMLSession\r\n\r\nurl = \"https://search.yahoo.co.jp/realtim\"\r\n\r\n# セッション開始\r\nsession = HTMLSession()\r\nr = session.get(url)\r\n\r\n# ブラウザエンジンでHTMLを生成させる\r\nr.html.render()\r\n",
+    "supplement": "このコードを実行してみてください。\r\n「HTTP Error 404: Not Found」と出るはずです。\r\nそれはurlが間違えているからです。",
+    "answer_id": "101626/101627",
+    "question_id": "101626"
+}
