@@ -1,0 +1,7 @@
+{
+    "title": "Dockerエンジンが立ち上がってません。",
+    "code": "docker run -d \r\n",
+    "supplement": "上のコマンドを実行　or Docker for desktopを起動し、完全に立ち上がるまで待ちましょう。",
+    "answer_id": "101631/101632",
+    "question_id": "101631"
+}
