@@ -1,0 +1,7 @@
+{
+    "title": "ボリュームの問題です",
+    "code": "docker rm 1ea55b6d3589\r\ndocker rmi nginx",
+    "supplement": "原因:ドッカーイメージを削除する際(docker rmi nginx)にコンテナ(1ea55b6d3589)が参照しているため、消すことができない。",
+    "answer_id": "101624/101625",
+    "question_id": "101624"
+}
