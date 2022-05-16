@@ -1,0 +1,7 @@
+{
+    "title": "SQLデータベースが立ち上がってません。",
+    "code": "docker compose up\r\nCtrl + C\r\n\r\nまたは\r\n\r\ndocker container restart [オプション] CONTAINER ",
+    "supplement": "Djangoの起動のスピード　> SQLサーバーの起動のスピード\r\nが成り立ってしまっているため、djangoが依存するSQLサーバーの起動ができていないことによるエラーです。\r\n\r\n上の二つの操作を何度か繰り返せば\r\nSQLサーバー < Djangoの起動スピード\r\nとなるタイミングが出てくるはずです。\r\n\r\nあるいは、エラーが出た後にDjangoのコンテナのみ再起動しましょう。\r\nやり方はDocker for DesktopのコンテナメニューにあるDjangoコンテナを再起動すれば良いです。\r\nあるいは二つ目のコマンドを実行すると良いでしょう。",
+    "answer_id": "101672/101723",
+    "question_id": "101672"
+}
