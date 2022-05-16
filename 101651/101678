@@ -1,0 +1,7 @@
+{
+    "title": "robots.txtが設定できていないです。",
+    "code": "User-agent: *\r\nDisallow:",
+    "supplement": "例えば、このリンクにアクセスしてみてください\r\nhttps://question.short-tips.info/robots.txt\r\nその時に出現するのがこのコードです。\r\nつまり、「/robots.txt」というパスにアクセスした時に、上のテキストが表示されるように設定してください。\r\nこのページにうまくアクセスできない場合、google botはクロール禁止と判断してしまいます。\r\nその結果、あなたのページはインデックス登録できなくなるのです。",
+    "answer_id": "101651/101678",
+    "question_id": "101651"
+}
