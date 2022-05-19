@@ -1,0 +1,7 @@
+{
+    "title": "X-Frame-Optionsが鍵です。",
+    "code": "（省略）\r\nfrom django.views.decorators.clickjacking import xframe_options_exempt\r\n\r\n@xframe_options_exempt\r\ndef index(request):\r\n（省略）",
+    "supplement": "Djangoの場合は上記のようにデコレーターを使うことでX-Frame-Optionsを設定することができます。\r\nruby on railsであれ,\r\nwordpressであれ,\r\nX-Frame-Optionsを設定することでiframeを自在に設定できるのです。\r\nX-Frame-Optionsの値は具体的には以下の選択肢があります。\r\n\r\nDENY\tフレーム上に表示させることを拒否（同じサイト内でも拒否）\r\nSAMEORIGIN\t同じサイト内のみフレーム上に表示させることを許可\r\nALLOW-FROM URL\t指定するURLのみ表示させることを許可\r\n",
+    "answer_id": "101959/101960",
+    "question_id": "101959"
+}
