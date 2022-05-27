@@ -1,0 +1,7 @@
+{
+    "title": "countの位置を変更しましょう",
+    "code": "const TableCollection = Backbone.Collection.extend({ \r\n    model: PanelModel, \r\n    search : function(query){ \r\n        this.where({sender: fName}) \r\n    }, \r\n    setIdentifier: function(){ \r\n        var count = 0 \r\n        this.each(function(row, index) { \r\n            row.set(\"idAttribute\", \"panel-\" + count) \r\n            count += 1 //ここ！\r\n        }) \r\n    },",
+    "supplement": "おそらくですが、backbone.jsのバグです。\r\ncountの位置を変えると良い",
+    "answer_id": "102752/102753",
+    "question_id": "102752"
+}
