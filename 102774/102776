@@ -1,0 +1,7 @@
+{
+    "title": "コードに問題はないです。バージョンの指定が問題です",
+    "code": "#あなたのコマンド\r\n#python text2.py\r\n\r\n#必要なコマンド\r\npython3 text2.py\r\n\r\n",
+    "supplement": "macやlinuxではpython2が既に入っている場合が多いです。\r\nその場合はpython3を指定しなければなりません",
+    "answer_id": "102774/102776",
+    "question_id": "102774"
+}
