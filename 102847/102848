@@ -1,0 +1,7 @@
+{
+    "title": "paramsに配列は格納できません",
+    "code": "def page(request, page_id):\r\n    params = {}\r\n    ## 2st. find page\r\n    params = {\r\n        \"tweet_list\": get_questions(page_id + \".json\")\r\n    }\r\n    return render(request, \"oversea_it/base/page_v2.html\", params)",
+    "supplement": "",
+    "answer_id": "102847/102848",
+    "question_id": "102847"
+}
