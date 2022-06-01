@@ -1,0 +1,7 @@
+{
+    "title": "setとtoJSONを使いましょう",
+    "code": "const TableCollection = Backbone.Collection.extend({ \r\n    model: PanelModel, \r\n    initialize : function(){ \r\n        this.model_history = [] \r\n    }, \r\n    pushHistory : function(){ \r\n        this.model_history.push(this.clone()) \r\n    }, \r\n    backToHistory : function(){ \r\n        this.model_history.pop() \r\n        this.set( this.model_history[this.model_history-1].toJSON() )\r\n    },\r\n...\r\n",
+    "supplement": "setはjsonファイルをセットするメソッドです。\r\nbackboneにあるデータはtoJSONメソッドでシリアライズ化できます。",
+    "answer_id": "103252/103253",
+    "question_id": "103252"
+}
