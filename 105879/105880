@@ -1,0 +1,7 @@
+{
+    "title": "file://をやめてサーバーからアクセスしましょう",
+    "code": "・Stop this url\r\nfile:///Users/minegishirei/myworking/docker/docker/django3/app/fanstatic/templates/gentelella-master/production/index.html\r\n\r\n\r\n・build server and access from localhost\r\nhttps://fanstatic.localhost/index.html",
+    "supplement": "",
+    "answer_id": "105879/105880",
+    "question_id": "105879"
+}
