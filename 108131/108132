@@ -1,0 +1,7 @@
+{
+    "title": "windowsの通常アカウントで再インストールが必要です。",
+    "code": "administratorアカウントでインストールすると、\r\n通常のアカウントで動かなくなります。",
+    "supplement": "",
+    "answer_id": "108131/108132",
+    "question_id": "108131"
+}
