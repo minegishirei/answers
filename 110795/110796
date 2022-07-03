@@ -1,0 +1,7 @@
+{
+    "title": "dockerfileを次のように変えてみてください",
+    "code": "FROM python:3.4\r\n\r\nRUN groupadd -r uwsgi && useradd -r -g uwsgi uwsgi\r\n## 以下変更ポイント\r\nRUN pip install --upgrade pip\r\n## 以上\r\nRUN pip install Flask uWSGI\r\nWORKDIR /app\r\nCOPY app /app\r\nCOPY cmd.sh /\r\n\r\nEXPOSE 9090 9191\r\nUSER uwsgi\r\n\r\nCMD [\"/cmd.sh\"]\r\n",
+    "supplement": "dockerfileの修正が必要です。\r\ndockerではバージョン管理に気をつけてみてください。",
+    "answer_id": "110795/110796",
+    "question_id": "110795"
+}
