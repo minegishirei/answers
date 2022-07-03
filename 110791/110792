@@ -1,0 +1,7 @@
+{
+    "title": "dockerエンジンが起動されていません。",
+    "code": "",
+    "supplement": "docker for desktopを起動するか、docker　deamonを起動してください。",
+    "answer_id": "110791/110792",
+    "question_id": "110791"
+}
