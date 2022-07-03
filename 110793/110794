@@ -1,0 +1,7 @@
+{
+    "title": "docker-compse.ymlに修正が必要です。",
+    "code": "version: \"3\"\r\n\r\nservices:\r\n  identidock:\r\n    build: . \r\n    ports:\r\n    - \"5000:5000\"\r\n    environment:\r\n      ENV: DEV \r\n    volumes:\r\n      - ./app:/app\r\n",
+    "supplement": "docker composeを次のように修正してください。\r\nポイントは\r\n1. versionを指定すること\r\n2. servicesをつけること\r\n3. versionとservicesには一行の改行を入れること。",
+    "answer_id": "110793/110794",
+    "question_id": "110793"
+}
