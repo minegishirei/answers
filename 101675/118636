@@ -1,0 +1,7 @@
+{
+    "title": "tnsnames.oraを変更しましょう",
+    "code": "Cドライブ配下のoracle¥admin¥bin...配下にtnsnames.oraが存在します。\r\nこのファイルを適切な人からもらいましょう",
+    "supplement": "",
+    "answer_id": "101675/118636",
+    "question_id": "101675"
+}
